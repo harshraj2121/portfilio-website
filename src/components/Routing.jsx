@@ -6,7 +6,7 @@ import Resume from './Resume'
 import Work from './Work'
 import Contactme from './Contactme'
 import Hireme from "./Hireme"
-import Experience from './resumecomps/experience'
+import Experience from './resumecomps/Experience'
 import Education from './resumecomps/Education'
 import Skills from './resumecomps/Skills'
 import Aboutme from './resumecomps/Aboutme'
