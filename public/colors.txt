@@ -1,0 +1,7 @@
+here is the list of all colors that is used in the website
+
+#242a35 => Navigation Bar
+#ff9800 => orange active color
+#f48c06 => orange hover color
+#d9d9d0 => intro background text color
+#212529 => intro forground text color

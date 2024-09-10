@@ -1,11 +1,18 @@
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    screen: {
+      medium: '750px',
+    },
+    extend: {
+      fontFamily: {
+        jetbrains: ['JetBrains Mono', 'monospace'],
+        blackops: ['Black Ops One', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
