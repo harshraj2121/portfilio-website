@@ -24,11 +24,11 @@ function Skills() {
   return (
 <div className='w-full h-full pt-5'>
       <h1 className='text-3xl text-[#212529]'>My Skills</h1>
-      <p className='pt-6 text-lg text-[#6C757D] antialiased'>Here are some of my skills that I have mastered; throught my journey.</p>
-      <div className='w-full h-72 overflow-auto grid place-items-start grid-rows-2 grid-cols-4'>
+      <p className='pt-6 text-lg text-[#6C757D] w-full lg:w-[80%] antialiased'>Here are some of my skills that I have mastered; throught my journey.</p>
+      <div className='w-full lg:w-[80%] overflow-y-auto h-72 flex items-start justify-start flex-wrap flex-grow'>
         {skills_data.map((val, index)=>(
           <div key={index} className='h-36 w-36 pt-7 flex justify-start'>
-            <div className={`h-28 w-28 relative bg-[#dadada] group flex items-center basis-28 justify-center gap-y-5`}>
+            <div className={`h-28 w-28 relative bg-[#dadada] group flex items-center basis-28 justify-center`}>
               {val.istrue ? (<FontAwesomeIcon icon={val.icon} className='group-hover:text-[#f48c06] text-6xl text-[#212529]' />) : val.iconTag }
                 <p className='absolute duration-100 bg-white text-[#fb8500] text-sm whitespace-nowrap rounded-md px-1 opacity-0 group-hover:opacity-100 text-center top-0 group-hover:-top-5 left-1/2 -translate-x-[50%]'>{val.skillsTitle}</p>
             </div>

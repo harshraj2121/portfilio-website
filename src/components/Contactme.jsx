@@ -31,14 +31,14 @@ function Contactme() {
           <form className='w-full h-[50vh] mt-2 py-4' action="" onSubmit={handleSubmit(handleSubmitButton)}>
             <div className='flex flex-col gap-y-5 min-[529px]:gap-y-7 md:gap-y-5'>
               <div className='flex items-center justify-center gap-x-5'>
-                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#212529] placeholder:p-2' {...register('fName', {required: true})} placeholder='First Name' type="text" />
-                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#212529] placeholder:p-2' {...register('sName', {required: true})} placeholder='Second Name' type="text" />
+                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#242a35] placeholder:p-2' {...register('fName', {required: true})} placeholder='First Name' type="text" />
+                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#242a35] placeholder:p-2' {...register('sName', {required: true})} placeholder='Second Name' type="text" />
               </div>
               <div className='flex items-center justify-center gap-x-5'>
-                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#212529] placeholder:p-2' {...register('email', {required: true})} placeholder='Email Address' type="email" />
-                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#212529] placeholder:p-2' {...register('phone', {required: true})} placeholder='Phone Number' type="tel" />
+                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#242a35] placeholder:p-2' {...register('email', {required: true})} placeholder='Email Address' type="email" />
+                <input className='bg-white border-2 rounded-sm text-black h-8 w-[50%] placeholder-[#242a35] placeholder:p-2' {...register('phone', {required: true})} placeholder='Phone Number' type="tel" />
               </div>
-              <select className='bg-white border-2 rounded-sm text-black h-8 w-full placeholder-[#212529] placeholder:p-2' name="Select a Service" id="">
+              <select className='bg-white border-2 rounded-sm text-black h-8 w-full placeholder-[#242a35] placeholder:p-2' name="Select a Service" id="">
                 <option value="default" selected>Select a Service:</option>
                 <option value="option1">Web Developoment</option>
                 <option value="option2">Video Editing</option>
@@ -46,8 +46,8 @@ function Contactme() {
                 <option value="option4">Python</option>
                 <option value="option5">Photo Editing</option>
               </select>
-              <input className='bg-white border-2 rounded-sm text-black h-32 w-full placeholder-[#212529] placeholder:p-2 placeholder:absolute placeholder:top-0' {...register('message', {required: true})} placeholder='type your Message Here.' type="text" />
-              <button className='px-5 py-2 rounded-full bg-[#f48c06] text-white text-md w-fit'>Send Message</button>
+              <input className='bg-white border-2 rounded-sm text-black h-32 w-full placeholder-[#242a35] placeholder:p-2 placeholder:absolute placeholder:top-0' {...register('message', {required: true})} placeholder='type your Message Here.' type="text" />
+              <button className='px-5 py-2 rounded-full bg-[#ff9800] hover:bg-[#f48c06] text-white text-md w-fit'>Send Message</button>
             </div>
           </form>
         </div>

@@ -16,7 +16,7 @@ function Resume() {
 },[location.pathname, Navigate])
 
   return (
-    <div className='w-full h-[185vh] flex flex-col items-center pt-4 sm:h-fit bg-zinc-'>
+    <div className='w-full h-fit flex flex-col items-center pt-4 sm:h-fit bg-zinc-'>
       <Intro content={"RESUME"} subcontent={"Let's have a look of me"} topicon={faPage4}/>
       <div className='max-w-screen-xl mx-auto h-fit md:h-[93.15vh] text-white md:grid grid-cols-[1fr_2fr] gap-5 sm:px-8 pt-5 md:pt-11'>
         <div className='h-fit md:h-[65vh] p-8'>
